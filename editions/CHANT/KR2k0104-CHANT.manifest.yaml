@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR2k0104/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2k0104/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 南方草木狀三卷
+  identifiers:
+    krp: KR2k0104
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR2k
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0104.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 2, filename: KR2k0104_002-CHANT.yaml, hash: 'sha256:2b6a9ddf052942f193929c75e48899623c9a6f07863d55c5e417d8b97d35177d'}
+  - {seq: 3, filename: KR2k0104_003-CHANT.yaml, hash: 'sha256:ba3baaf40320e64278bbcddfd2514172933bc2f2b140c64d6389862abcb5e8e5'}
+  markers:
+  - {seq: 2, role: markers, filename: assets/KR2k0104_002-CHANT.markers.yaml, hash: 'sha256:cca2e9c7cdeba27bfab241de6c0864822e52ee5b45e326615c2718ce66950b01'}
+  - {seq: 3, role: markers, filename: assets/KR2k0104_003-CHANT.markers.yaml, hash: 'sha256:961828bab22889567fd567bcb30c96ee86ee58f4f5ca5fbe37e77b6d851debf4'}
+table_of_contents:
+- ref:
+    seq: 2
+    marker_id: KR2k0104_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 1500
+  label: 木類
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2k0104_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 1495
+  label: 果類
+  type: section
+  level: 1
+hash: sha256:b91b91b70cc3a8aa677e11452ae52e131b1e88b75b60fbd2ad1dfa61d6761911

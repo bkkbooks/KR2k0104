@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR2k0104/v1
+canonical_location: https://kanripo.org/bkk/KR2k0104/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 南方草木狀三卷
+  identifiers:
+    krp: KR2k0104
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR2k
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0104.xml
+  edition:
+    short: bkk
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+assets:
+  parts:
+  - {seq: 2, filename: KR2k0104_002.yaml, hash: 'sha256:d5dde1a0406ffed63d9361cc889411f7aaee1ab7c203c2245e4694e5146a7340'}
+  - {seq: 3, filename: KR2k0104_003.yaml, hash: 'sha256:1ea3d91bde9d2595d66d916c5c5b16b5b3496e7a37b7dbd8c84d5cb91050bb28'}
+  markers:
+  - {seq: 2, role: markers, filename: assets/KR2k0104_002.markers.yaml, hash: 'sha256:6ee1254da19dae341f5af0b97a3da36a14ac290a87bc0521b037dace0eb40322'}
+  - {seq: 3, role: markers, filename: assets/KR2k0104_003.markers.yaml, hash: 'sha256:c04dcdd675248053d57c4aa094c44b4f730adefc54f5fee79e645a233d1c3ce6'}
+table_of_contents:
+- ref:
+    seq: 2
+    marker_id: KR2k0104_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 1500
+  label: 木類
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2k0104_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 1495
+  label: 果類
+  type: section
+  level: 1
+hash: sha256:2ea53181284a7ee8fd12a25df8fe2e731ca0acc2fb2f920de8db8193df0052e7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
