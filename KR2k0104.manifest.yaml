@@ -21,11 +21,11 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 2, filename: KR2k0104_002.yaml, hash: 'sha256:d5dde1a0406ffed63d9361cc889411f7aaee1ab7c203c2245e4694e5146a7340'}
-  - {seq: 3, filename: KR2k0104_003.yaml, hash: 'sha256:1ea3d91bde9d2595d66d916c5c5b16b5b3496e7a37b7dbd8c84d5cb91050bb28'}
+  - {seq: 2, filename: KR2k0104_002.yaml, hash: 'sha256:2b6a9ddf052942f193929c75e48899623c9a6f07863d55c5e417d8b97d35177d'}
+  - {seq: 3, filename: KR2k0104_003.yaml, hash: 'sha256:ba3baaf40320e64278bbcddfd2514172933bc2f2b140c64d6389862abcb5e8e5'}
   markers:
-  - {seq: 2, role: markers, filename: assets/KR2k0104_002.markers.yaml, hash: 'sha256:6ee1254da19dae341f5af0b97a3da36a14ac290a87bc0521b037dace0eb40322'}
-  - {seq: 3, role: markers, filename: assets/KR2k0104_003.markers.yaml, hash: 'sha256:c04dcdd675248053d57c4aa094c44b4f730adefc54f5fee79e645a233d1c3ce6'}
+  - {seq: 2, role: markers, filename: assets/KR2k0104_002.markers.yaml, hash: 'sha256:82b9345b207334bd1e2a31d062107c11b488b8f98c45e56621f0fdd8635df0d2'}
+  - {seq: 3, role: markers, filename: assets/KR2k0104_003.markers.yaml, hash: 'sha256:bbe09897a372b19c2221dfe8dad97e4b126c23de7ccc5307e1fecb773989440a'}
 table_of_contents:
 - ref:
     seq: 2
@@ -47,7 +47,4 @@ table_of_contents:
   label: 果類
   type: section
   level: 1
-hash: sha256:2ea53181284a7ee8fd12a25df8fe2e731ca0acc2fb2f920de8db8193df0052e7
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:a9e4945ae1ca555e61a4d4d112cb6f349003120e6ada879693be0dbd03d8eba6
