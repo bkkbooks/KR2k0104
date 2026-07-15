@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR2k0104/v1
 canonical_location: https://kanripo.org/bkk/KR2k0104/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 南方草木狀三卷
   identifiers:
@@ -21,11 +21,11 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 2, filename: KR2k0104_002.yaml, hash: 'sha256:2b6a9ddf052942f193929c75e48899623c9a6f07863d55c5e417d8b97d35177d'}
-  - {seq: 3, filename: KR2k0104_003.yaml, hash: 'sha256:ba3baaf40320e64278bbcddfd2514172933bc2f2b140c64d6389862abcb5e8e5'}
+  - {seq: 2, filename: KR2k0104_002.yaml, hash: 'sha256:d71550dc7755c6d6eb93a6097104e2b58d1d964bca240cef3d6791a927668fac'}
+  - {seq: 3, filename: KR2k0104_003.yaml, hash: 'sha256:8464d467e6114a4a7d7789500fa5efe1cafec9d7244b69e07c4e3d728985cc85'}
   markers:
-  - {seq: 2, role: markers, filename: assets/KR2k0104_002.markers.yaml, hash: 'sha256:82b9345b207334bd1e2a31d062107c11b488b8f98c45e56621f0fdd8635df0d2'}
-  - {seq: 3, role: markers, filename: assets/KR2k0104_003.markers.yaml, hash: 'sha256:bbe09897a372b19c2221dfe8dad97e4b126c23de7ccc5307e1fecb773989440a'}
+  - {seq: 2, role: markers, filename: assets/KR2k0104_002.markers.yaml, hash: 'sha256:c05c62dd2af8aae1ac528eeeb6e1926544ac9510172fbd84a539805c48a29c7c'}
+  - {seq: 3, role: markers, filename: assets/KR2k0104_003.markers.yaml, hash: 'sha256:636b2f2a3635bd3f07d2ed7d95b1f476d3e033879c3fb0a7b84277749cb2b466'}
 table_of_contents:
 - ref:
     seq: 2
@@ -47,4 +47,7 @@ table_of_contents:
   label: 果類
   type: section
   level: 1
-hash: sha256:a9e4945ae1ca555e61a4d4d112cb6f349003120e6ada879693be0dbd03d8eba6
+hash: sha256:3e721b945658dc02a67cf045a477db384ca98535cd68dd45484a12dd29c1f566
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
